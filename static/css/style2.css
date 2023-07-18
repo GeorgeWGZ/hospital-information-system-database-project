@@ -1,0 +1,431 @@
+body {
+    background: url(../img/Hospital3.jpg) fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.myNav .navbar {
+    background-color: #f2f2f2 !important;
+    /* opacity: 0.85; */
+}
+
+.form-container {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form-container1 {
+    max-width: 700px !important;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form-container2 {
+    max-width: 500px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form-container3 {
+    max-width: fit-content;
+    /* max-height: 3000px; */
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form-container4 {
+    max-width: 800px;
+    /* max-height: 3000px; */
+    padding: 15px !important;
+    margin: auto auto;
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form-container5 {
+    max-width: 450px !important;
+    padding: 5px !important;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form-container6 {
+    max-width: 200px !important;
+    padding: 5px !important;
+    /* margin: 0 auto; */
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form-container7 {
+    max-width: 530px !important;
+    padding: 5px !important;
+    max-height: 620px;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form-container8 {
+    max-width: 500px;
+    height: 790px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form-container9 {
+    max-width: 800px;
+    max-height: 600px;
+    margin: auto auto;
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form-container10 {
+    max-width: 560px !important;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form-container11 {
+    max-width: 500px;
+    height: 430px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form-container12 {
+    max-width: 550px !important;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form-container13 {
+    width: 600px;
+    height: 500px;
+    max-height: 700px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form-container14 {
+    max-width: 850px !important;
+    height: 500px !important;
+    padding: 5px !important;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: white;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    width: 600px !important;
+}
+
+.form-container15 {
+    max-width: 900px !important;
+    padding: 5px !important;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form-container16 {
+    max-width: 850px !important;
+    height: 300px !important;
+    padding: 5px !important;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: white;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    width: 600px !important;
+}
+
+.form-container18 {
+    max-width: 500px;
+    max-height: 600px;
+    justify-content: center;
+    margin: auto auto;
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form-container20 {
+    max-width: 700px;
+    height: 610px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form-container21 {
+    /* max-width: 530px; */
+    /* padding: 15px; */
+    /* margin: 0 auto; */
+    border-radius: 0.3em;
+    background-color: white;
+    opacity: 0.7;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form-container22 {
+    /* max-width: 530px; */
+    /* padding: 15px; */
+    /* margin: 0 auto; */
+    border-radius: 0.3em;
+    background-color: transparent;
+}
+
+.form-container23 {
+    /* max-width: 530px; */
+    /* padding: 15px; */
+    /* margin: 0 auto; */
+    /* color: #f2f2f2; */
+    width: 450px;
+    opacity: 0.7;
+    box-shadow: 0px 0px 10px 0px #000;
+    border-radius: 0.3em;
+    background-color: white;
+}
+
+.nav-item .navbar-nav .nav-link {
+    color: wheat !important;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold !important;
+}
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+    opacity: 0.83;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+*[role="form"] h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.control-label {
+    text-align: left !important;
+}
+
+.required {
+    color: rgb(117, 0, 0)
+}
+
+@media only screen and (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+        display: block !important;
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+fieldset {
+    overflow: hidden
+}
+
+.some-class {
+    float: left;
+    clear: none;
+}
+
+label {
+    float: left;
+    clear: none;
+    display: block;
+    padding: 0px 1em 0px 8px;
+}
+
+input[type=radio],
+input.radio {
+    float: left;
+    clear: none;
+    margin: 2px 0 0 2px;
+}
+
+.selectbox {
+    -webkit-appearance: menulist-button;
+    height: 50px;
+}
+
+.wrapper3 {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+
+.alertMsg {
+    color: rgb(116, 0, 0);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    opacity: 0.85;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background-color: rgb(214, 64, 89);
+    color: white;
+}
+
+#body {
+    padding: 10px;
+    padding-bottom: 90px !important;
+    /* Height of the footer */
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 87px;
+    /* Footer height */
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 87px;
+    text-align: center;
+    background-color: #f2f2f2;
+    opacity: 0.85;
+    /* Footer height */
+}
+
+.FirstParagraph:hover {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+
+.SecondParagraph:hover {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+}

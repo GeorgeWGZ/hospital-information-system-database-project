@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HIS</title>
+    <link rel="icon" href="{{url_for('static', filename='img/doctor.svg')}}" type="image/x-icon" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}">
+       <style>
+        .form-container9:hover {
+            background-color: rgb(255, 255, 255);
+            opacity: 0.9;
+        }
+
+        .form-container9 {
+            background-color: #FDFDFE;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper1">
+
+        <nav id="sidebar">
+
+            <div class="sidebar-header">
+                <h3>Back home</h3>
+            </div>
+            <ul class="lisst-unstyled components">
+                <li>
+                    <a href="http://127.0.0.1:5000">Home</a>
+                </li>
+
+            </ul>
+        </nav>
+
+
+        <div id="content">
+
+
+            <br><br>
+            <div class=form-container9>
+                <div class=wrapper2>
+                    <h1>Medicine Inventory</h1>
+                    <br>
+                    <p class="alertMsg">{{msg}}</p>
+
+                    <div id=" no-more-tables">
+                        <table class="table table-stripped table-light table-responsive col-lg-12 table-hover">
+                            <thead>
+                                <tr>
+
+
+                                    <th scope="col">ID</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Quantity</th>
+                                    <th scope="col">Storage Location </th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for data in medicinedata %}
+                                <tr>
+                                    <td>{{data.0}}</td>
+                                    <td>{{data.1}}</td>
+                                    <td>{{data.2}}</td>
+                                    <td>{{data.3}}</td>
+                                    <td>{{data.4}}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#sidebarCollapse').on('click', function() {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+
+
+</body>
+</html>

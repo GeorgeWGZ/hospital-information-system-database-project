@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HIS</title>
+    <link rel="icon" href="{{url_for('static', filename='img/Patient.svg')}}" type="image/x-icon" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}">
+       <style>
+        .form-container9:hover {
+            background-color: rgb(255, 255, 255);
+            opacity: 0.9;
+        }
+
+        .form-container9 {
+            background-color: #FDFDFE;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper1">
+
+        <nav id="sidebar">
+
+            <div class="sidebar-header">
+                <h3>Back home</h3>
+            </div>
+            <ul class="lisst-unstyled components">
+                <li>
+                    <a href="http://127.0.0.1:5000">Home</a>
+                </li>
+
+            </ul>
+        </nav>
+
+
+        <div id="content">
+<!--            this is the show panel-->
+            <br><br>
+            <div class=form-container9>
+                <div class=wrapper2>
+                    <h1>Section Patient</h1>
+                    <div id=" no-more-tables">
+                        <table class="table table-stripped table-light table-responsive col-lg-12 table-hover">
+                            <thead>
+                                <tr>
+
+
+                                    <th scope="col">Department</th>
+                                    <th scope="col">Patient</th>
+
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for data in patientdata %}
+                                <tr>
+                                    <td>{{data.0}}</td>
+                                    <td>{{data.1}}</td>
+
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('#sidebarCollapse').on('click', function() {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+
+
+</body>
+</html>

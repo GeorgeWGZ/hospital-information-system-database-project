@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <style type="text/css">
+        @media only screen and (min-width: 768px) {
+            .dropdown:hover .dropdown-menu {
+                display: block;
+            }
+        }
+    </style>
+    <title>HIS</title>
+    <link rel="icon" href="{{url_for('static', filename='img/Appointment.svg')}}" type="image/x-icon" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css/bootstrap.css') }}">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+<!--        this is the upper panel-->
+            <div class="container-fluid bg">
+                <div class="myNav">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid">
+
+                            <img src="{{url_for('static', filename='img/kidney.svg')}}" class="navbar-brand" height="45px" width="45px" style="text-align: left !important;" />
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                  </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5000/">Home</a>
+                                    </li>
+<!--                                    Modification button-->
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5000/ModifyInventory">Modification</a>
+                                    </li>
+<!--                                    Access button-->
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Access
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="http://127.0.0.1:5000/MedicineInventory">Medicine Inventory</a>
+                                                <li><a class="dropdown-item" href="http://127.0.0.1:5000/SectionPatient">Section Patient</a></li>
+                                        </ul>
+                                        </li>
+
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <br>
+
+            <br>
+
+
+<!--        this is the left division-->
+            <div class="container">
+                <div class="row">
+                    <div class="col" style="text-align: center">
+                        <div class="form-container23 SecondParagraph ">
+                            <h1 style="font-size: 25px; color: rgb(214, 64, 89);">Modification</h1>
+
+                            <p style="font-weight: 500; color: rgb(107, 107, 107); padding:2%; line-height: 24 px;">Modification allows user to modify a known medicine's ID amd quantity.
+                                Once confirmed, it would jump to the medicine inventory web.
+                                If the medicine doesn't exist, it would stay in the same page and show "MODIFICATION FAILED".
+                                The quantity would only recognize integer.
+                            </p>
+                        </div>
+                    </div>
+<!--                   this is the right division -->
+                    <div class="col" style="text-align: center">
+                       <div class="form-container23 SecondParagraph ">
+                            <h1 style="font-size: 25px; color: rgb(214, 64, 89);">Access</h1>
+
+                            <p style="font-weight: 500; color: rgb(107, 107, 107); padding:2%; line-height: 24 px;">
+                                Access allows user to access to medicine inventory web page and
+                                the section patient number web page.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <br>
+
+
+            <div class=" container">
+                <div class="d-flex justify-content-between row">
+                    <div class="col">
+                        <div class="form-container21 FirstParagraph" style=" grid-gap: 16px;">
+
+                            <h1 style="text-align:center;">Why choose X-Hospital?</h1>
+                            <p style="font-weight: 500; color: rgb(107, 107, 107); padding:2%; line-height: 24 px;">A well-known hospital in a no-one-know nation. Your best choice to go to
+                                if you lose your mind. No complaints, no service, and no guarantee. Come if you dare.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <footer id="footer">
+            <div class="container">
+
+                <p class="text-center">Copyright @2022 | Designed by <span style="color: rgb(95, 95, 255);">TEAM 11</span></p>
+
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js "></script>
+    <script src="{{ url_for('static', filename='javascript/js/bootstrap.js') }}"></script>
+
+
+</body>
+
+</html>
